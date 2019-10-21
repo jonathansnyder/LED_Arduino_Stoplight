@@ -6,6 +6,8 @@ int green = D5;
 int yellow = D6;
 int red = D7;
 
+long lastMillis = 0;
+
 pinMode(green, OUTPUT);
 pinMode(yellow, OUTPUT);
 pinMode(red, OUTPUT);

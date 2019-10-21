@@ -23,8 +23,12 @@ if(request.indexof("/Red")){
     redled();
 }
 
-if(request.indexof("/Auto")){
+if(request.indexof("/Off")){
+    offled();
+}
 
+if(request.indexof("/Auto")){
+    autocycle();
 }
 
 void greenled(){
@@ -52,5 +56,8 @@ void offled(){
 }
 
 void autocycle(){
+
+
+
 
 }
