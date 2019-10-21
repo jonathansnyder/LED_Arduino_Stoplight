@@ -7,6 +7,10 @@ int yellow = D6;
 int red = D7;
 
 long lastMillis = 0;
+long greenAndRedTimer = 3000;
+long yellowTimer = 1000;
+//autostate green = 1, yellow = 2, red = 3
+int autostate = 0;
 
 pinMode(green, OUTPUT);
 pinMode(yellow, OUTPUT);
