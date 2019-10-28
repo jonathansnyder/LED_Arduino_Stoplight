@@ -9,8 +9,10 @@ int red = D7;
 long lastMillis = 0;
 long greenAndRedTimer = 3000;
 long yellowTimer = 1000;
+unsigned long currenttime = millis();
 //autostate green = 1, yellow = 2, red = 3
 int autostate = 0;
+bool automode = false;
 
 pinMode(green, OUTPUT);
 pinMode(yellow, OUTPUT);
